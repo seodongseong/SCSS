@@ -1,0 +1,25 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "SCSS",
+  "main": "01.js",
+  "scripts": {
+    "start": "npx parcel 01.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seodongseong/SCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seodongseong/SCSS/issues"
+  },
+  "homepage": "https://github.com/seodongseong/SCSS#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.93.2"
+  }
+}

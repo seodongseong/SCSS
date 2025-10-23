@@ -1,0 +1,57 @@
+$size : 400px;  //전역변수
+
+
+//01 기본중첩
+.container{
+    border:5px solid gray;
+    width: $size;
+    ul{
+        border:3px solid forestgreen;
+        margin : 5px;
+        padding : 10px;
+        list-style: none;
+        li{
+            min-height: 35px;
+            border:2px solid red;
+            width:200px;
+            margin: 5px;
+        }
+        
+        .age{
+            font-weight: 900;
+            color:palegreen;
+        }
+        .name{
+            color:blue;
+        }
+
+
+    }
+
+    
+}
+
+// 02
+
+.container2{
+    .btn{
+        text-decoration:none;
+        padding: 10px 20px;
+        margin:0px 10px;
+        border:1px solid lightcoral;
+        color: darkcyan;
+        border-radius: 5px;
+        cursor: poiner;
+
+        &.active{
+            color:white;
+            background-color: orange;
+        }
+    }
+
+        .fs{
+            &-small{font-size : .7rem;}
+            &-medium{font-size : .9rem;}
+            &-large{font-size : 1.5rem;}
+    }
+}
